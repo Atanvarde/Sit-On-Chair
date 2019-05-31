@@ -8,12 +8,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.main_width {
+.main_width_container {
     margin: 0 auto;
-    width: 100%;
-}
-
-.header_container {
+    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -22,13 +19,16 @@ header {
     background-color: #000000;
     width: 100%;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 42px;
 }
 
-.logo {
+
+
+h1.logo {
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 span {
@@ -37,7 +37,7 @@ span {
 }
 
 .logo_container {
-    margin-left: 5%;
+    margin-left: 70px;
 }
 
 .navigation_list {
@@ -46,9 +46,25 @@ span {
     list-style-type: none;
 }
 
-.navigation_item {
+.navigation_item:nth-of-type(1) {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 13px;
+    margin: 0 27px 0 0px;
+    letter-spacing: 1px;
+}
+
+.navigation_item:nth-of-type(2) {
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 27px 0 27px;
+    letter-spacing: 1px;
+}
+
+.navigation_item:nth-of-type(3) {
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 0px 0 10px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -61,11 +77,14 @@ a:hover {
     color: #ffffff;
 }
 
-.navigation {
-    margin-right: 5%;
+.navigation_container{
+    margin-right: 7%;
 }
 
-li {
-    margin: 0 30px 0 30px;
+.slider {
+    height: 503px;
+    background-image: linear-gradient(to bottom,#fafafa,#f7f7f7,#d3d2da);
 }
+
+
 
